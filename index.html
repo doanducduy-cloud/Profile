@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">MyProfile</a>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">Introduce</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Project</a>
+                <a href="#contact" clss="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>HELLO, I'M <span class="highlight">DOAN DUC DUY</span></h1>
+                <p>Web developer & Data engineer</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary">Contact now</a>
+                    <a href="#projects" class="btn-secondary">View project</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="z7050529448669_f9ba1765fe23351fdfb9e79e3123a5a8.jpg" alt="Profile Image">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll down</span>
+            <div class="arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am an IT student. I am passionate about creating great user experiences and beautiful interfaces. I help companies with statistics and data processing.</p>
+                    <p>With a solid knowledge of HTML, CSS, JavaScript and frameworks like React, I am always looking to improve my skills and learn new technologies. I am also known as a software engineer.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>2+</h3>
+                            <p>Project completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>1+</h3>
+                            <p>Years of experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>1+</h3>
+                            <p>Customers are satisfied</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="z7050638727575_746032070d8d76a3485daa97b412abaf.jpg" alt="About Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Professional skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-item">
+                        <span>HTML/CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>React</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-item">
+                        <span>Node.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>PHP</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>MySQL</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Design</h3>
+                    <div class="skill-item">
+                        <span>UI/UX Design</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Figma</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Adobe XD</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Outstanding project</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="eCommerce-Website-Features-1920-x-1080.jpg" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Website</h3>
+                        <p>E-commerce website with full shopping, payment and order management features.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <a href="#" class="project-link">See details</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>Travel Blog</h3>
+                        <p>Travel blog app with responsive interface and content management system.</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Express</span>
+                            <span>MySQL</span>
+                        </div>
+                        <a href="#" class="project-link">See details</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Best-Task-Management-App-–-Keep-Your-Business-On-Track.webp" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>Task management app with drag & drop, assignment and progress tracking.</p>
+                        <div class="project-tech">
+                            <span>Angular</span>
+                            <span>Firebase</span>
+                            <span>Material UI</span>
+                        </div>
+                        <a href="#" class="project-link">See details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact information</h3>
+                    <div class="contact-item">
+                        <i class="icon">📧</i>
+                        <span>doanduy131000@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="icon">📱</i>
+                        <span>+84 779 261 175</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="icon">📍</i>
+                        <span>Sai Gon, Viet Nam</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/doanduy.1310?locale=vi_VN" class="social-link">Facebook</a>
+                        <a href="https://github.com/Doanduy13" class="social-link">GitHub</a>
+                        <a href="https://www.instagram.com/_duy.ddoan/" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send a message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Họ và tên" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Nội dung tin nhắn" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send a message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Doan Duc Duy 13-10-2007. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
